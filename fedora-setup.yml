@@ -55,7 +55,6 @@
          - gnome-tweaks
          - neofetch
          - htop
-         - rofi
          - remmina
 
     - name: Install dev packages
@@ -73,15 +72,11 @@
          - xterm
          - tmux
          - g++
-         - golang
-         - dotnet-sdk-8.0
-         - java-21-openjdk
+         - dotnet-sdk-10.0
+         - java-25-openjdk
          - npm
          - code
          - ghostwriter
-
-    - name: Setup gnome
-      include_tasks: gnome-settings.yml
 
     - name: Dotfiles setup
       include_tasks: dotfiles.yml

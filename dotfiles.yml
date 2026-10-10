@@ -41,13 +41,6 @@
         path: ~/.config/rofi
         state: directory
 
-    - name: rofi
-      file:
-        state: link
-        force: yes
-        src: ~/.dotfiles/config.rasi
-        dest: ~/.config/rofi/config.rasi
-
     - name: xterm
       file:
         state: link
